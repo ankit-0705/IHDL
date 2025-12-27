@@ -16,5 +16,6 @@ initial begin
     for (integer j=0;j<4;j=j+1) begin
         {s1,s0}=j; #10;
     end
+    $finish;
 end
 endmodule
